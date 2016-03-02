@@ -25,7 +25,6 @@ var server = new SMTPServer({
             data += chunk;
         });
         stream.on('end', function () {
-            server.messages.push(data);
             callback();
         });
     },

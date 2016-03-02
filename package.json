@@ -1,6 +1,6 @@
 {
   "name": "smtp-server-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A development `smtp` server used to log incoming `smtp` messages.",
   "main": "index.js",
   "bin": {
