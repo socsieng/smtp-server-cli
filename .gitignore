@@ -1,0 +1,16 @@
+node_modules/
+.npm
+.node_repl_history
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini

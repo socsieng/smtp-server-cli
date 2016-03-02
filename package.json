@@ -1,0 +1,30 @@
+{
+  "name": "smtp-server-cli",
+  "version": "1.0.0",
+  "description": "A development `smtp` server used to log incoming `smtp` messages.",
+  "main": "index.js",
+  "bin": {
+    "smtp-server": "./bin/smtp-server"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smtp",
+    "dev",
+    "development",
+    "cli",
+    "mail",
+    "server"
+  ],
+  "author": "socsieng",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socsieng/smtp-server-cli.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "smtp-server": "^1.9.0"
+  }
+}
